@@ -1,6 +1,6 @@
 <?php get_header(single);?>
 
-<div class="container" style="padding-top: 80px;">
+<div class="container" style="padding-top: 50px;">
 
 
 
@@ -21,52 +21,36 @@ else {
   add_post_meta($post->ID, 'short_url', $short_url, true);
 }
 ?>
-
-    <div class="row no-padding">
-
-                    <div class="card-content flow-text">
-
-             		          <!--<?php $categories = get_the_category();
-                             if ( ! empty( $categories ) ) {
-                                 echo '<a class="chip orange white-text z-depth-1-half" href="'. esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
-                                 }?>-->
-
-                                   <h1><?php the_title();?></h1>
-
-                                 <div class="right-align flow-text hide-on-med-and-up">
-                                   <?php include(TEMPLATEPATH.'/mods/mod-social.php');?>
-                                 </div>
-
-                             </div>
-                             <div class="card-action info-post">
-                                 <span class="autor-post">
-                                   <?php
-
-                                       $alias = get_post_meta($post->ID,'author_alias',true);
-                                   if(empty($alias)){
-                                     echo  $author = get_the_author_link();
-                                   }else{
-                                     echo $author = $alias;
-                                   }
-                                   ?>
-
-                                 </span></br>
-                                 <span class="data-post"> <?php the_time('d.m.Y');?> </span>
-                                 <span class="hora-post"> <?php the_time('G:i');?></span>
-
-                                 	 <div class="clearfix"></div>
-                             </div>
-
-
-    </div>
-    <div class="container testepin" style="padding-top: 40px;">
+    <div class="container testepin">
     <div class="row">
-        <!--<div class="col m1 l1"  >
-            <div class="btnsocial hide-on-med-and-down">
-                <?php include(TEMPLATEPATH.'/mods/mod-btnsocial.php');?>
-            </div>
-        </div>-->
-        <div class="col s12 m10 l10 no-padding post">
+      <div class="col s12 m8 l8 push-l2 no-padding">
+        <h1><?php the_title();?></h1>
+      </div>
+        <div class="col s12 m6 l6 push-l3 no-padding post">
+                   <div class="card-action info-post">
+                     <div class="col s6 no-padding">
+                       <span class="autor-post">
+                         Por
+                         <?php
+
+                             $alias = get_post_meta($post->ID,'author_alias',true);
+                         if(empty($alias)){
+                           echo  $author = get_the_author_link();
+                         }else{
+                           echo $author = $alias;
+                         }
+                         ?>
+
+                       </span></br>
+                       <span class="data-post"> <?php the_time('d/m/Y');?> </span>
+                       <span class="hora-post">- <?php the_time('G:i');?></span>
+                     </div>
+                         <div class="col s6 no-padding">
+                           <div class="right-align flow-text">
+                           <?php include(TEMPLATEPATH.'/mods/mod-social.php');?>
+                         </div>
+                         </div>
+                   </div>
             <div id="post" class="card">
 
                       <div class="card-content no-padding">
@@ -91,9 +75,7 @@ else {
 </div>
 
 <!-- INICIO - Módulo - Mais Notícias e Sidebar -->
-
 <div class="container">
-  <h3>Mais notícias</h3>
 	<?php include(TEMPLATEPATH.'/mods/mod-noticias-post.php');?>
 </div>
 <!-- FIM - Módulo - Mais Notícias e Sidebar -->

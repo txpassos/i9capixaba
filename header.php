@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head data-collapsible class="collapsible">
-	      <meta name="theme-color" content="#000000 ">
+	      <meta name="theme-color" content="#00A250">
 	<meta property="fb:pages" content="127618923973927" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
@@ -39,7 +39,6 @@
                                   <div class="" id="input">
                                     <input name="s" id="search-terms" placeholder="Digite sua busca" type="text"></div>
                               </form>
-                              <a href="<?php bloginfo('template_url');?>/entrar" class="hide-on-small-only">ENTRAR</a>
                 </ul>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="font-size:30px;">menu</i></a>
             </div>
@@ -50,16 +49,6 @@
        <ul id="mobile-demo" class="side-nav collapsible" data-collapsible="accordion" style="border:none;">
          <li class="no-padding">
            <ul class="collapsible collapsible-accordion">
-             <li class="bold"><a href="<?php bloginfo('template_url');?>/entrar" class="green collapsible-header waves-effect waves-orange">
-               ENTRAR
-               <!--<span class="badge">
-                 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 16px;"></i>
-               </span>-->
-             </a>
-               <!--<div class="collapsible-body" style="">
-                 <?php // wp_nav_menu( array( 'menu' => 'menu-noticias','theme-location'=>'menu-noticias', 'container'=>'div', 'container-class'=>'menu-noticias', 'menu_class'=>'ul-menu-noticias' )); ?>
-               </div>-->
-             </li>
              <li class="bold"><a href="#" class="waves-effect waves-teal">Vídeos</a></li>
              <li class="bold"><a href="#" class="waves-effect waves-teal">Documentários</a></li>
              <li class="bold"><a href="#" class="waves-effect waves-teal">Séries</a></li>

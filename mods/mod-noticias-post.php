@@ -2,7 +2,7 @@
   <div class="col s12 m10 l8 offset-l2 offset-m1 no-padding">
   </div>
   <div class="col s12 m10 l8 offset-l2 offset-m1 no-padding">
-    <h3>Mais vídeos</h3>
+    <h3>Mais notícias</h3>
 <!-- Noticias 1 // Inicio do Loop -->
 <?php query_posts('showposts=4&cat=-15968, -15966, -167,-61, -38, -9, -178, -5, -1, -35');?>
 <?php if (have_posts()): while (have_posts()) : the_post();?>
