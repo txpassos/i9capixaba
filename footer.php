@@ -19,10 +19,9 @@
         <div class="container">
             <div class="row">
              <div class="col s12 m6 l6">
-                Aldeia Play © 2017 Secom / Governo do Estado do Acre - Todos os direitos reservados
+                i9capixaba.com © 2017 i9 Eventos e Comunicação - Todos os direitos reservados
             </div>
             <div class="col s12 m6 l6">
-                <a href="#" class="white-text"><span class="icon-aldeia-04 right" style="font-size:25px;height:60px;"></span></a>
             </div>
             </div>
         </div>
