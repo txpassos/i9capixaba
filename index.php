@@ -77,28 +77,6 @@
   <!-- FIM - Módulo - Slider -->
 
 <div id="especiais" class="container">
-<!-- INICIO - Módulo - Rádios -->
-  <?php include(TEMPLATEPATH.'/mod-radios.php');?>
-<!-- FIM - Módulo - Rádios -->
-
-<!-- INICIO - Módulo - Programas -->
-  <?php include(TEMPLATEPATH.'/mod-programas.php');?>
-<!-- FIM - Módulo - Rádios -->
-
-<!-- INICIO - Módulo - Últimos vídeos -->
-  <?php include(TEMPLATEPATH.'/mod-videos.php');?>
-<!-- FIM - Módulo - Últimos vídeos -->
-
-<!-- INICIO - Módulo - Documentários -->
-  <?php include(TEMPLATEPATH.'/mod-videos-docs.php');?>
-<!-- FIM - Módulo - Documentários -->
-
-<!-- INICIO - Módulo - Livros -->
-  <?php include(TEMPLATEPATH.'/mod-livros2.php');?>
-<!-- FIM - Módulo - Livros -->
-
-<!-- INICIO - Módulo - Livros -->
-  <?php include(TEMPLATEPATH.'/mod-youtube.php');?>
-<!-- FIM - Módulo - Livros -->
+<?php /* include(TEMPLATEPATH.'/mod-radios.php'); */ ?> 
 </div>
 <?php get_footer(); ?>
