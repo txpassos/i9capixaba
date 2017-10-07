@@ -1,6 +1,6 @@
 <?php get_header(single);?>
 
-<div class="container">
+<div class="container" style="padding-top: 80px;">
 
 
 
