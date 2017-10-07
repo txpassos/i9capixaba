@@ -23,17 +23,41 @@ else {
 ?>
 
     <div class="row no-padding">
-            <?php
-                    $imagepost = get_post_meta( $post->ID,'destaquepost', true );
-                    $imageP = wp_get_attachment_image_src( $imagepost, 'slider-post' );
-                    $imageD = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slider-post' );
-                    if(empty($imageP)){
-                       $image = $imageD;
-                    }else{
-                      $image = $imageP;
-                    }
 
-                    ;?>
+                    <div class="card-content flow-text">
+
+             		          <!--<?php $categories = get_the_category();
+                             if ( ! empty( $categories ) ) {
+                                 echo '<a class="chip orange white-text z-depth-1-half" href="'. esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                                 }?>-->
+
+                                   <h1><?php the_title();?></h1>
+
+                                 <div class="right-align flow-text hide-on-med-and-up">
+                                   <?php include(TEMPLATEPATH.'/mod-social.php');?>
+                                 </div>
+
+                             </div>
+                             <div class="card-action info-post">
+                                 <span class="autor-post">
+                                   <?php
+
+                                       $alias = get_post_meta($post->ID,'author_alias',true);
+                                   if(empty($alias)){
+                                     echo  $author = get_the_author_link();
+                                   }else{
+                                     echo $author = $alias;
+                                   }
+                                   ?>
+
+                                 </span></br>
+                                 <span class="data-post"> <?php the_time('d.m.Y');?> </span>
+                                 <span class="hora-post"> <?php the_time('G:i');?></span>
+
+                                 	 <div class="clearfix"></div>
+                             </div>
+
+
 		<div class="header-post"></div>
         <div class="especiais-img img-post autoH-top" style="background: url('<?php echo $image[0]; ?>') no-repeat;">
         </div>
@@ -55,40 +79,6 @@ else {
 
   <?php include(TEMPLATEPATH.'/mod-btncurtiu.php');?>
 
-                </div>
-
-
-	     <div class="card-content flow-text">
-
-		          <!--<?php $categories = get_the_category();
-                if ( ! empty( $categories ) ) {
-                    echo '<a class="chip orange white-text z-depth-1-half" href="'. esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
-                    }?>-->
-
-                      <h1><?php the_title();?></h1>
-
-                    <div class="right-align flow-text hide-on-med-and-up">
-                      <?php include(TEMPLATEPATH.'/mod-social.php');?>
-                    </div>
-
-                </div>
-                <div class="card-action info-post">
-                    <span class="autor-post">
-                      <?php
-
-                          $alias = get_post_meta($post->ID,'author_alias',true);
-                      if(empty($alias)){
-                        echo  $author = get_the_author_link();
-                      }else{
-                        echo $author = $alias;
-                      }
-                      ?>
-
-                    </span></br>
-                    <span class="data-post"> <?php the_time('d.m.Y');?> </span>
-                    <span class="hora-post"> <?php the_time('G:i');?></span>
-
-                    	 <div class="clearfix"></div>
                 </div>
             </div>
         </div>
