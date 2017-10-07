@@ -19,9 +19,9 @@
         <link href="<?php bloginfo('template_url');?>/assets/css/font-awesome.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/assets/slick/slick.css">
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/assets/slick/slick-theme.css">
-	
+
     </head>
-    <body class="white-text">
+    <body>
 
       <!-- INICIO - Módulo - Navegação -->
         <div class="navbar-fixed">
@@ -67,7 +67,7 @@ padding-top: 10px;"></a>
              <li class="bold"><a href="#" class="waves-effect waves-teal">Séries</a></li>
              <li class="bold"><a href="#" class="waves-effect waves-teal">Sobre Aldeia Play</a></li>
              <li class="bold"><a href="<?php bloginfo('template_url');?>/cadastro" class="waves-effect waves-teal">Cadastre-se</a></li>
-   	   
+
            </ul>
          </li>
        </ul>
