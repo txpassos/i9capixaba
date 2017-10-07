@@ -952,7 +952,6 @@ a.button-collapse{
     font-weight: 300;
     line-height: 1.2;
     margin: 0;
-    color: #ffffff;
     padding-bottom: 30px;
 }
 .card-content h2
@@ -983,7 +982,6 @@ a.button-collapse{
     font-size: 12pt;
     padding-bottom: 30px;
     line-height: 1.2;
-    color: #ffffff !important;
     font-weight: 300;
 }
 
