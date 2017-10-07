@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container" style="padding-top: 64px;">
 <!-- INICIO - Módulo - Chips -->
 <!--
   <div class="row"  style="padding: 0 10px;">
@@ -77,6 +77,6 @@
   <!-- FIM - Módulo - Slider -->
 
 <div id="especiais" class="container">
-<?php /* include(TEMPLATEPATH.'/mod-radios.php'); */ ?> 
+<?php /* include(TEMPLATEPATH.'/mod-radios.php'); */ ?>
 </div>
 <?php get_footer(); ?>
