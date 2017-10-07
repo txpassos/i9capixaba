@@ -1,6 +1,4 @@
-	  [
-		
-		]'	12'<?php
+<?php
 
 add_theme_support( 'post-thumbnails' );
 set_post_thumbnail_size( 100, 100, true );
