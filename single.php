@@ -57,10 +57,8 @@ else {
                                  	 <div class="clearfix"></div>
                              </div>
 
-
-		<div class="header-post"></div>
     </div>
-    <div class="container testepin" style="padding-top: 104px;">
+    <div class="container testepin">
     <div class="row">
         <!--<div class="col m1 l1"  >
             <div class="btnsocial hide-on-med-and-down">
