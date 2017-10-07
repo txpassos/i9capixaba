@@ -616,91 +616,13 @@ $artigo_metabox->set_fields(
 	        ),
 
 					array(
-	            'id'          => 'titulo-capa',
-	            'label'       => __( 'Título específico para Capa', 'odin' ),
-	            'type'        => 'text',
-	            'description' => __( 'Caso essa campo seja preenchido o título vai aparecer na capa ', 'odin' )
-	        ),
-
-					array(
-	            'id'          => 'chamada-destaque1',
-	            'label'       => __( 'Chamada do Destaque 1', 'odin' ),
+	            'id'          => 'descricao',
+	            'label'       => __( 'Descrição', 'odin' ),
 	            'type'        => 'textarea',
 	            'description' => __( 'Chamada após o título do Destaque 1. Até 120 toques ', 'odin' )
-	        ),
-
-          array(
-              'id'          => 'txt-facebook',
-              'label'       => __( 'Facebook // Whatsapp', 'odin' ),
-              'type'        => 'textarea',
-              'description' => __( 'Chamada para o Facebook e Whatsapp. Texto que vai abaixo da foto quando o usuario clicar pra compartilhar. ', 'odin' )
-          ),
-
-
-					array(
-	            'id'          => 'tweet',
-	            'label'       => __( 'Twitter', 'odin' ),
-	            'type'        => 'textarea',
-	            'description' => __( 'Defina o tweet da sua matéria, não esqueça de colocar #hastags. Até 120 toques ', 'odin' )
 	        )
-
 	    )
 		);
-
-		// Criando a MetaBox Imagem destacada do post
-
-		$destaquepost_metabox = new Odin_Metabox(
-				'destaqueposts', // Slug/ID do Metabox (obrigatório)
-				'Imagem Destacada do Post', // Nome do Metabox  (obrigatório)
-				'post', // Slug do Post Type, sendo possível enviar apenas um valor ou um array com vários (opcional)
-				'normal', // Contexto (opções: normal, advanced, ou side) (opcional)
-				'high' // Prioridade (opções: high, core, default ou low) (opcional)
-		);
-
-
-		// Criando os campos Meta Box Imagem destacada do post
-
-		$destaquepost_metabox->set_fields(
-				array(
-					// Campo Data variavel tipo foto
-					array(
-								'id'          => 'destaquepost', // Obrigatório
-								'label'       => __( 'Imagem Destacada do post', 'odin' ), // Obrigatório
-								'type'        => 'image', // Obrigatório
-								'default'     => '', // Opcional (deve ser o id de uma imagem em mídia)
-								'description' => __( 'Selecione a imagem que vai abrir a matéria', 'odin' ), // Opcional
-								)
-					)
-			);
-
-
-      // Criando a MetaBox Video do post
-
-  		$destaquepost_metabox = new Odin_Metabox(
-  				'idvideo', // Slug/ID do Metabox (obrigatório)
-  				'Video do Youtube', // Nome do Metabox  (obrigatório)
-  				'post', // Slug do Post Type, sendo possível enviar apenas um valor ou um array com vários (opcional)
-  				'normal', // Contexto (opções: normal, advanced, ou side) (opcional)
-  				'high' // Prioridade (opções: high, core, default ou low) (opcional)
-  		);
-
-
-  		// Criando os campos Meta Box Vídeo do post
-
-  		$destaquepost_metabox->set_fields(
-  				array(
-  					// Campo Data variavel tipo foto
-  					array(
-  								'id'          => 'videoid', // Obrigatório
-  								'label'       => __( 'Id do video do youtube', 'odin' ), // Obrigatório
-  								'type'        => 'text', // Obrigatório
-  								'default'     => '', // Opcional (deve ser o id de uma imagem em mídia)
-  								'description' => __( 'Selecione o id do vídeo que vai abrir a matéria. Ex: youtube.com/watch?v=ak8jzShE3Vk o id é essa sequencia após o watch?v=', 'odin' ), // Opcional
-  								)
-  					)
-  			);
-
-
 
   //Final das orações do odin
 

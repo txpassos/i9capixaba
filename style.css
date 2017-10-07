@@ -1563,6 +1563,23 @@ body.login {
     right: -17px !important;
 }
 
+
+/* Módulo destaques */
+.destaques h2{
+  font-size: 16px;
+  margin: 5px 0px;
+  color: #4D4D4D;
+}
+/* Fim - Módulo destaques */
+
+/* Módulo destaques */
+.ultimas h2{
+  font-size: 22px;
+  margin: 10px;
+  color: #4D4D4D;
+}
+/* Fim - Módulo destaques */
+
 footer{
   background-color: #00A250 !important;
 }
