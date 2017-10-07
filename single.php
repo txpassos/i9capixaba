@@ -34,7 +34,7 @@ else {
                                    <h1><?php the_title();?></h1>
 
                                  <div class="right-align flow-text hide-on-med-and-up">
-                                   <?php include(TEMPLATEPATH.'/mod-social.php');?>
+                                   <?php include(TEMPLATEPATH.'/mods/mod-social.php');?>
                                  </div>
 
                              </div>
@@ -63,7 +63,7 @@ else {
     <div class="row">
         <!--<div class="col m1 l1"  >
             <div class="btnsocial hide-on-med-and-down">
-                <?php include(TEMPLATEPATH.'/mod-btnsocial.php');?>
+                <?php include(TEMPLATEPATH.'/mods/mod-btnsocial.php');?>
             </div>
         </div>-->
         <div class="col s12 m10 l10 no-padding post">
@@ -74,7 +74,7 @@ else {
                 <p><?php the_content(__('Leia mais'));?></p>
 
 
-  <?php include(TEMPLATEPATH.'/mod-btncurtiu.php');?>
+  <?php include(TEMPLATEPATH.'/mods/mod-btncurtiu.php');?>
 
                 </div>
             </div>
@@ -94,7 +94,7 @@ else {
 
 <div class="container">
   <h3>Mais notícias</h3>
-	<?php include(TEMPLATEPATH.'/mod-noticias-post.php');?>
+	<?php include(TEMPLATEPATH.'/mods/mod-noticias-post.php');?>
 </div>
 <!-- FIM - Módulo - Mais Notícias e Sidebar -->
 
