@@ -8,6 +8,7 @@ Author URI: <a rel="nofollow" href="http://www.i9capixaba.com" class="vglnk"><sp
 
  html, body, .block{
    height: 100%;
+    font-family: 'Open Sans', sans-serif;
  }
 
 @media only screen and (min-width: 1200px) {
@@ -904,7 +905,6 @@ a.button-collapse{
       line-height: 1.2;
       font-weight: 300;
       color: #484848 !important;
-      font-family: opensans,sans-serif;
       letter-spacing: -0.3px;
       overflow-wrap: break-word;
       line-height: 1.7;
@@ -1473,13 +1473,21 @@ body.login {
 }
 /* Fim - Módulo destaques */
 
-/* Módulo destaques */
-.ultimas h2{
-  font-size: 22px;
-  margin: 10px;
-  color: #4D4D4D;
+/* Módulo últimas */
+
+.ultimas{
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DDDDDD;
+  padding-bottom: 15px !important;
 }
-/* Fim - Módulo destaques */
+
+.ultimas h2{
+  font-size: 1.3em;
+  margin: 5px 0 0 0;
+  color: #00A250;
+  font-weight: bold;
+}
+/* Fim - Módulo últimas */
 
 footer{
   background-color: #00A250 !important;

@@ -13,7 +13,7 @@
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); wp_head(); ?>
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url');?>/materialize/css/materialize.min.css"  media="screen,projection"/>
         <link href="<?php bloginfo('template_url');?>/style.css" rel="stylesheet" type="text/css">
         <link href="<?php bloginfo('template_url');?>/assets/css/font-awesome.css" rel="stylesheet" type="text/css">
