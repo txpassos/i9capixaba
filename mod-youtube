@@ -1,0 +1,51 @@
+<!-- INICIO - Módulo - Vídeos -->
+    <div id="videos" class="container" style="padding: 0px 10px;">
+      <div class="row">
+
+        <div class="col s12 no-padding">
+          <h2><i class="fa fa-play" aria-hidden="true"></i>Vídeos</h2>
+        </div>
+
+        <div class="col s12 m4 no-padding">
+          <a class="modal-video" href="#modal1" data-video="https://www.youtube.com/embed/dSiSIxDHo5U">
+          <div class="box-videos especiais-img b3" style="background: url('https://i.ytimg.com/vi/dSiSIxDHo5U/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=68&sigh=DT4fPZFH5BipcpKVDUpQ-y8RxUw');border-radius: 2px 0 0 2px;">
+            <i class="material-icons white-text">play_circle_outline</i>
+            <span class="titulo-especiais white-text">Banda de música mirim - Notícias do Acre</span>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col s12 m4 no-padding">
+          <a class="modal-video" href="#modal1" data-video="https://www.youtube.com/embed/XDVpw3yMHxA">
+          <div class="box-videos especiais-img b3" style="background: url('https://i.ytimg.com/vi/XDVpw3yMHxA/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=68&sigh=JHYkPQuwUciFsKewP5KrjmBsDxs');border-radius: 2px 0 0 2px;">
+            <i class="material-icons white-text">play_circle_outline</i>
+            <span class="titulo-especiais white-text">Produção diversificada</span>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col s12 m4 no-padding">
+          <a class="modal-video" href="#modal1" data-video="https://www.youtube.com/embed/4qLxetYThLE">
+          <div class="box-videos especiais-img b3" style="background: url('https://i.ytimg.com/vi/4qLxetYThLE/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=68&sigh=Q_Vmxjc4e5gtbwyAqZf1wTLaXFs');border-radius: 2px 0 0 2px;">
+            <i class="material-icons white-text">play_circle_outline</i>
+            <span class="titulo-especiais white-text">Intercâmbio Acre e EUA</span>
+          </div>
+          </a>
+        </div>
+
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+              <div class="video-container">
+                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+              </div>
+          </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close btn-flat"><i class="material-icons">close</i></a>
+        </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- FIM - Módulo - Vídeos -->

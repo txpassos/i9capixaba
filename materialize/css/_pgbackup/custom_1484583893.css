@@ -1,0 +1,25 @@
+/*!
+ * Projeto Ana 2017
+ * Por Adaildo Neto e Thennyson Passos
+ */
+
+ .noticias-imagem {
+   overflow:hidden;
+   width:50%;
+   height: 350px;
+   position: relative;
+   margin-right:5px;
+ }
+
+.noticias-imagem-2 {
+  overflow:hidden;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.bloco-topo {
+   position: absolute;
+   top: 5px;
+   left: 10px;
+ }
