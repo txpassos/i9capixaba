@@ -1507,7 +1507,8 @@ body.login {
 }
 
 .ultimas h2{
-  font-size: 1.3em;
+  font-size: 1.8em;
+  line-height: 1.3em;
   margin: 5px 0 0 0;
   color: #00A250;
   font-weight: bold;

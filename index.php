@@ -19,9 +19,7 @@
   <!-- Fim - Módulo Destaques -->
 </div>
 
-<div class="col s12 m12 l4">
-  <h2>sidebar</h2>
-</div>
+<?php get_sidebar(); ?>
 </div>
 </div>
 
