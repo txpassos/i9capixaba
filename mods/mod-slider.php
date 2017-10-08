@@ -8,7 +8,7 @@
     <?php if (have_posts()): while (have_posts()) : the_post();?>
 	<a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
 	<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slider-noticias2' ); ?>
-      <div class="slider-noticias img-slider" style="background: url('<?php echo $image[0]; ?>');">
+      <div class="slider-noticias img-slider-principal" style="background: url('<?php echo $image[0]; ?>');">
         <div class="bloco-slider-noticias">
           <h2><?php the_title();?></h2>
         </div>
@@ -23,7 +23,7 @@
     <?php if (have_posts()): while (have_posts()) : the_post();?>
 	<a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
 	<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slider-noticias2' ); ?>
-      <div class="slider-noticias img-slider" style="background: url('<?php echo $image[0]; ?>');">
+      <div class="slider-noticias img-slider-secundario" style="background: url('<?php echo $image[0]; ?>');">
         <div class="bloco-slider-noticias">
           <h2><?php the_title();?></h2>
         </div>
@@ -41,7 +41,7 @@
     <?php if (have_posts()): while (have_posts()) : the_post();?>
   <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
   <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slider-noticias2' ); ?>
-      <div class="slider-noticias img-slider" style="background: url('<?php echo $image[0]; ?>');">
+      <div class="slider-noticias img-slider-secundario" style="background: url('<?php echo $image[0]; ?>');">
         <div class="bloco-slider-noticias">
           <h2><?php the_title();?></h2>
         </div>
@@ -56,7 +56,7 @@
     <?php if (have_posts()): while (have_posts()) : the_post();?>
   <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
   <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slider-noticias2' ); ?>
-      <div class="slider-noticias img-slider" style="background: url('<?php echo $image[0]; ?>');">
+      <div class="slider-noticias img-slider-principal" style="background: url('<?php echo $image[0]; ?>');">
         <div class="bloco-slider-noticias">
           <h2><?php the_title();?></h2>
         </div>
