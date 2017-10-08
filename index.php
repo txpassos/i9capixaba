@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container" style="padding-top: 64px;">
+<div class="container" style="padding-top: 90px;">
 
 <!-- Inicio - Módulo Slider -->
 <?php include(TEMPLATEPATH.'/mods/mod-slider.php'); ?>
