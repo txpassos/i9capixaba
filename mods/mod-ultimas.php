@@ -1,4 +1,4 @@
-<?php query_posts('showposts=5&offset=4');?>
+<?php query_posts('showposts=5');?>
 <?php if (have_posts()): while (have_posts()) : the_post();?>
 <div class="col s12 m12 l12 no-padding ultimas" style="margin-bottom: 20px;">
   <div class="col s12 m12 l6 no-padding">
