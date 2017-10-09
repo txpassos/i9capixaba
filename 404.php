@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 <div class="container header">
 <!-- INICIO - Módulo - Chips -->
-  <div class="row">
-     <?php include(TEMPLATEPATH.'/menu-integracao.php');?>
-  </div>
 </div>
 <div class="container">
 <div class="row">

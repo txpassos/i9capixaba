@@ -44,14 +44,8 @@
                         <li><a href="#">Cultura</a></li>
                         <li><a href="#">Contato</a></li>
                       </ul>
-                <ul class="right">
-                  <form id="search" action="/" method="get">
-                                  <div class="" id="label">
-                                    <label for="search" id="search-label">search</label></div>
-                                  <div class="" id="input">
-                                    <input name="s" id="search-terms" placeholder="Digite sua busca" type="text"></div>
-                              </form>
-                </ul>
+                      <ul class="right hide-on-med-and-down">
+                              <li><a href="sass.html"><i class="material-icons">search</i></a></li>
                 <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only"><i class="material-icons" style="font-size:30px;">menu</i></a>
             </div>
         </nav>
