@@ -10,6 +10,22 @@ add_image_size( "destaque2", 500, 500, true );
 add_image_size( "agenda-cultural", 275, 320, true );
 add_image_size( "artigo", 500, 500, true );
 
+//Inserindo Style e Scripts
+function theme_scripts() {
+    wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
+		wp_enqueue_style('materializecss', get_template_directory_uri() . '/materialize/css/materialize.min.css');
+		wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets/css/font-awesome.css');
+		wp_enqueue_style('slickcss', get_template_directory_uri() . '/assets/slick/slick.css');
+		wp_enqueue_style('slicktheme', get_template_directory_uri() . '/assets/slick/slick-theme.css');
+		wp_enqueue_script('jquery', get_template_directory_uri() . '/assets/js/jquery.min.js', true);
+		wp_enqueue_script('materializejs', get_template_directory_uri() . '/materialize/js/materialize.min.js', true);
+		wp_enqueue_script('slickjs', get_template_directory_uri() . '/assets/slick/slick.min.js', true);
+		wp_enqueue_script('custom', get_template_directory_uri() . '/custom.js', true);
+		wp_enqueue_script('search', get_template_directory_uri() . '/assets/js/search.js', true);
+		wp_enqueue_script('classie', get_template_directory_uri() . '/assets/js/classie.js', true);
+}
+add_action( 'wp_enqueue_scripts', 'theme_scripts' );
+
 
 //shortcode para comparar duas imagens
 

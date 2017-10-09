@@ -13,7 +13,7 @@ Author URI: <a rel="nofollow" href="http://www.i9capixaba.com" class="vglnk"><sp
 
 @media only screen and (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1170px !important;
   }
 }
  @font-face{
@@ -264,10 +264,6 @@ h1 {
 
 input[type="text"]{
   border-bottom: 0 !important;
-}
-
-a.button-collapse{
-	display: block !important;
 }
 
 .button-collapse{

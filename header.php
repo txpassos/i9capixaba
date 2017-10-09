@@ -14,12 +14,6 @@
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url');?>/materialize/css/materialize.min.css"  media="screen,projection"/>
-        <link href="<?php bloginfo('template_url');?>/style.css" rel="stylesheet" type="text/css">
-        <link href="<?php bloginfo('template_url');?>/assets/css/font-awesome.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/assets/slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/assets/slick/slick-theme.css">
-
     </head>
     <body>
       <!-- INICIO - Módulo - Navegação -->
@@ -40,7 +34,7 @@
                                     <input name="s" id="search-terms" placeholder="Digite sua busca" type="text"></div>
                               </form>
                 </ul>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="font-size:30px;">menu</i></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only"><i class="material-icons" style="font-size:30px;">menu</i></a>
             </div>
         </nav>
       </div>

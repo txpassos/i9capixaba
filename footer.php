@@ -27,16 +27,6 @@
         </div>
     </div>
 </footer>
-<!--  Scripts-->
-
-
-<script src="<?php bloginfo('template_url');?>/assets/js/jquery.min.js"></script>
-<script src="<?php bloginfo('template_url');?>/materialize/js/materialize.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url');?>/assets/slick/slick.min.js"></script>
-<script src="<?php bloginfo('template_url');?>/custom.js"></script>
-<script src="<?php bloginfo('template_url');?>/assets/js/search.js"></script>
-<script src="<?php bloginfo('template_url');?>/assets/js/classie.js"></script>
-
 
 <!-- Definindo o layout da paginação -->
 <script type="text/javascript">
