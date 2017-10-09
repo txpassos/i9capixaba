@@ -271,10 +271,7 @@ input[type="text"]{
 }
 
 .brand-logo {
-    left: 50% !important;
-    position:absolute;
     font-size: 2.2rem !important;
-    margin: -2px 0 0 35px;
 }
 
 .brand-logo img{
@@ -289,8 +286,6 @@ input[type="text"]{
 
 @media (min-width: 1024px){
 .brand-logo {
-    left: 40% !important;
-    position:absolute;
     font-size: 2.8rem !important;
     margin-top: 0;
 }

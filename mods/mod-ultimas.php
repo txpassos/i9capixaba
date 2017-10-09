@@ -1,4 +1,11 @@
-<?php query_posts('showposts=5');?>
+<?php
+$args = array(
+    'showposts' => 5,
+    'tag__not_in'  => array(2),
+);
+query_posts($args);
+
+?>
 <?php if (have_posts()): while (have_posts()) : the_post();?>
 <div class="col s12 m12 l12 no-padding ultimas" style="margin-bottom: 20px;">
   <div class="col s12 m12 l6 no-padding">

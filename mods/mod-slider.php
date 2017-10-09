@@ -1,7 +1,7 @@
 <div class="row">
    <div class="slider-noticias-container2">
 
-    <div class="col s6 m6 l6 no-padding">
+    <div class="col s6 m6 l6" style="padding-right:0;">
 
     <div class="slide-principal">
     <?php query_posts('showposts=1&tag=slider');?>
@@ -36,7 +36,7 @@
     </div>
 
     </div>
-    <div class="col s6 m6 l6 no-padding">
+    <div class="col s6 m6 l6" style="padding-left:0";>
 
     <div class="slide-principal">
     <?php query_posts('showposts=1&tag=slider&offset=2');?>
