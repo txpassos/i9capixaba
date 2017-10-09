@@ -54,7 +54,7 @@
       </div>
         <!-- FIM - Módulo - Navegação -->
 
-       <ul id="mobile-demo" class="side-nav collapsible" data-collapsible="accordion" style="border:none;">
+       <ul id="mobile-demo" class="left side-nav collapsible" data-collapsible="accordion" style="border:none;">
          <li class="no-padding">
            <ul class="collapsible collapsible-accordion">
              <li class="bold"><a href="#" class="waves-effect waves-teal">Vídeos</a></li>
