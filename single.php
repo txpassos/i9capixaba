@@ -1,8 +1,6 @@
 <?php get_header(single);?>
 
-<div class="container" style="padding-top: 50px;">
-
-
+<div class="container">
 
       <?php while (have_posts()) : the_post();?>
 

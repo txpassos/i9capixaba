@@ -161,7 +161,7 @@ line-height: 80px;
 }
 
 h1 {
-    font-size: 3.2rem;
+    font-size: 3.2em !important;
     line-height: 110%;
     margin: 2.1rem 0 1.68rem 0;
     font-weight: bold;
@@ -886,7 +886,7 @@ input[type="text"]{
 
 @media (max-width:479px)
 {
-    .card-content h1
+    .card-content
     {
         font-size: 14pt;
     }
@@ -951,6 +951,7 @@ input[type="text"]{
   font-size: 0.9em;
   font-weight: 300;
   margin-bottom: 25px;
+  height: 25px;
 }
 
 .info-post:first-letter{
@@ -1253,7 +1254,7 @@ some cases may stretch layouts. So, we're just hiding it.
 
 /* customizando a logo da agencia no login */
 
-.login h1 a {
+.login  a {
 background-image: url('http://www.agencia.ac.gov.br/wp-content/uploads/2017/04/logo.png');
 background-size: 100px 100px;
 width: 100px;
