@@ -1504,6 +1504,16 @@ body.login {
   color: #00A250;
   font-weight: bold;
 }
+
+.ultimas span{
+  font-size: 0.8em;
+  color: #999;
+}
+
+.ultimas h3{
+  font-size: 0.9em;
+  margin: 0;
+}
 /* Fim - Módulo últimas */
 
 .publicidade-lateral img{

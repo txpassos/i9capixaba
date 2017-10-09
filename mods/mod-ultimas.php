@@ -15,12 +15,20 @@ query_posts($args);
     </a>
   </div>
   <div class="col s12 m6 l6" style="padding: 10px !important;">
-    <span><?php $Chamada= get_post_meta( $post->ID,'chamada', true ); echo $Chamada;?></span>
+    <h3><?php $Chamada= get_post_meta( $post->ID,'chamada', true ); echo $Chamada;?></h3>
     <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
       <h2><?php the_title();?></h2>
     </a>
+    <span>
+      <?php $alias = get_post_meta($post->ID,'author_alias',true);
+        if(empty($alias)){
+          echo  $author = get_the_author_link();
+        }else{
+          echo $author = $alias;
+        }
+      ?></span>
+    <span>· <?php the_time('d/m/Y');?></span>
     <p><?php $Descricao= get_post_meta( $post->ID,'descricao', true ); echo $Descricao;?></p>
-    <span class="data-post"> <?php the_time('d/m/Y');?> </span>
   </div>
 </div>
 <?php endwhile;endif;?>
