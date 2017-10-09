@@ -12,7 +12,6 @@ add_image_size( "artigo", 500, 500, true );
 
 //Inserindo Style e Scripts
 function theme_scripts() {
-    wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
 		wp_enqueue_style('materializecss', get_template_directory_uri() . '/materialize/css/materialize.min.css');
 		wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets/css/font-awesome.css');
 		wp_enqueue_style('slickcss', get_template_directory_uri() . '/assets/slick/slick.css');
