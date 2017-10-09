@@ -1,25 +1,24 @@
 <footer class="page-footer">
-    <div class="container">
+  <!--  <div class="container">
         <div class="row">
 
             <div class="col l4 m12 s12">
-                <?php dynamic_sidebar( 'rodape1' ); ?>
-                <!-- Chamando formulario do Odin -->
+                <?php //dynamic_sidebar( 'rodape1' ); ?>
 
             </div>
             <div class="col l5 m12 s12">
-                <?php dynamic_sidebar( 'rodape2' ); ?>
+                <?php// dynamic_sidebar( 'rodape2' ); ?>
             </div>
             <div class="col l3 m12 s12">
-                <?php dynamic_sidebar( 'rodape3' ); ?>
+                <?php //dynamic_sidebar( 'rodape3' ); ?>
             </div>
         </div>
-    </div>
+    </div>-->
     <div class="footer-copyright">
         <div class="container">
             <div class="row">
              <div class="col s12 m6 l6">
-                i9capixaba.com © 2017 i9 Eventos e Comunicação - Todos os direitos reservados
+                2017 © i9 Eventos e Comunicação - Todos os direitos reservados
             </div>
             <div class="col s12 m6 l6">
             </div>
