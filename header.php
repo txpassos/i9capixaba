@@ -45,7 +45,7 @@
                         <li><a href="#">Contato</a></li>
                       </ul>
                       <ul class="right hide-on-med-and-down">
-                              <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+                              <li><a href="#"><i class="material-icons">search</i></a></li>
                 <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only"><i class="material-icons" style="font-size:30px;">menu</i></a>
             </div>
         </nav>
