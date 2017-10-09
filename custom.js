@@ -191,6 +191,12 @@ $(document).ready(function(){
       });
     }
   });
+  $( window ).resize(function(){
+    var sizeSliderback = $("body").width();
+    if (sizeSliderback > 1024) {
+      $(".slider-noticias-container").removeClass("slider-container");
+    }
+  });
 
 // INICIO Social bar
 $(document).ready(function(){
