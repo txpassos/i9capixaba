@@ -164,7 +164,7 @@ h1 {
     font-size: 3.2em !important;
     line-height: 110%;
     margin: 2.1rem 0 1.68rem 0;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 @media (max-width: 620px) {
