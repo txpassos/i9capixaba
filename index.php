@@ -7,7 +7,7 @@
 <!-- Fim - Módulo Slider -->
 
 <!-- Inicio - Módulo Destaques -->
-<?php include(TEMPLATEPATH.'/mods/mod-destaques.php'); ?>
+<!--<?php //include(TEMPLATEPATH.'/mods/mod-destaques.php'); ?>-->
 <!-- Fim - Módulo Destaques -->
 </div>
 
