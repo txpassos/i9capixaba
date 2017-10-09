@@ -36,6 +36,14 @@
                     <!--
                     <span class="icon-logo-agencia2017-02 logo-icone"></span><span class="hide-on-small-only logo-nome">Notícias do Acre</span>-->
                 </div>
+                <ul id="nav-mobile" class="left hide-on-med-and-down" style="    margin-left: 165px;">
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#l">Esporte</a></li>
+                        <li><a href="#">Segurança</a></li>
+                        <li><a href="#">Cultura</a></li>
+                        <li><a href="#">Contato</a></li>
+                      </ul>
                 <ul class="right">
                   <form id="search" action="/" method="get">
                                   <div class="" id="label">
