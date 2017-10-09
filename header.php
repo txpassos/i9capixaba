@@ -22,7 +22,7 @@
             <div class="nav-wrapper container">
                 <div class="brand-logo">
                     <a id="logo-container" href="<?php bloginfo('home')?>" title="<?php bloginfo('name');?>">
-                    <img src="<?php bloginfo('template_url');?>/assets/img/logo-i9-capixaba-site.png" style="padding-top: 14px;"></a>
+                    <img src="<?php bloginfo('template_url');?>/assets/img/logo-i9capixabacom.png" style="padding-top: 7px;"></a>
                     <!--
                     <span class="icon-logo-agencia2017-02 logo-icone"></span><span class="hide-on-small-only logo-nome">Notícias do Acre</span>-->
                 </div>
