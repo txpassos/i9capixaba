@@ -41,12 +41,12 @@
                 <ul id="nav-mobile" class="left hide-on-med-and-down" style="    margin-left: 165px;">
                         <li><a href="#">Notícias</a></li>
                         <li><a href="#">Política</a></li>
-                        <li><a href="#l">Esporte</a></li>
+                        <li><a href="#">Esporte</a></li>
                         <li><a href="#">Segurança</a></li>
                         <li><a href="#">Cultura</a></li>
                         <li><a href="#">Contato</a></li>
                       </ul>
-                      <ul class="right hide-on-med-and-down">
+                      <ul class="right">
                               <li><a href="#"><i class="material-icons">search</i></a></li>
                 <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only"><i class="material-icons" style="font-size:30px;">menu</i></a>
             </div>
