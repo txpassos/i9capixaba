@@ -282,6 +282,7 @@ input[type="text"]{
 @media (max-width: 980px){
 .brand-logo {
   left: 26% !important;
+  margin-left: 10px;
 }
 }
 
