@@ -55,11 +55,13 @@
        <ul id="mobile-demo" class="left side-nav collapsible" data-collapsible="accordion" style="border:none;">
          <li class="no-padding">
            <ul class="collapsible collapsible-accordion">
-             <li class="bold"><a href="#" class="waves-effect waves-teal">Vídeos</a></li>
-             <li class="bold"><a href="#" class="waves-effect waves-teal">Documentários</a></li>
-             <li class="bold"><a href="#" class="waves-effect waves-teal">Séries</a></li>
-             <li class="bold"><a href="#" class="waves-effect waves-teal">Sobre Aldeia Play</a></li>
-             <li class="bold"><a href="<?php bloginfo('template_url');?>/cadastro" class="waves-effect waves-teal">Cadastre-se</a></li>
+             <li class="bold"><a href="#" class="waves-effect waves-teal">Notícias</a></li>
+             <li class="bold"><a href="#" class="waves-effect waves-teal">Política</a></li>
+             <li class="bold"><a href="#" class="waves-effect waves-teal">Esporte</a></li>
+             <li class="bold"><a href="#" class="waves-effect waves-teal">Segurança</a></li>
+             <li class="bold"><a href="#" class="waves-effect waves-teal">Cultura</a></li>
+             <li class="bold"><a href="#" class="waves-effect waves-teal">Contato</a></li>
+             <!--<li class="bold"><a href="<?php //bloginfo('template_url');?>/cadastro" class="waves-effect waves-teal">Cadastre-se</a></li>-->
 
            </ul>
          </li>
