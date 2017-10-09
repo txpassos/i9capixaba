@@ -14,6 +14,8 @@
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="<?php bloginfo('template_url');?>/materialize/css/materialize.min.css" rel="stylesheet" type="text/css">
+
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107789034-1"></script>
         <script>

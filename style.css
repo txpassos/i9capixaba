@@ -167,6 +167,11 @@ h1 {
     font-weight: bold;
 }
 
+@media (max-width: 620px) {
+  h1 {
+  font-size: 2.2em !important;
+}}
+
 #search {
   position: relative;
   float: left;
@@ -834,7 +839,7 @@ input[type="text"]{
 .card{
   background-color: transparent;
   margin: 0px;
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 .card .card-content {
