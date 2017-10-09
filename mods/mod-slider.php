@@ -1,5 +1,5 @@
 <div class="row">
-   <div class="slider-noticias-container2">
+   <div class="slider-container">
 
     <div class="col s6 m6 l6" style="padding-right:0;">
 

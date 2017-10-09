@@ -1,38 +1,3 @@
-  $('.slider-noticias-container').slick({
-  dots: true,
-  slidesToShow: 2,
-  speed: 1800,
-  autoplay: true,
-  autoplaySpeed: 4000,
-  responsive: [
-  {
-  breakpoint: 1024,
-  settings: {
-  slidesToShow: 1,
-  slidesToScroll: 1
-  }
-  },
-  {
-  breakpoint: 600,
-  settings: {
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false
-  }
-  },
-  {
-  breakpoint: 480,
-  settings: {
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false
-  }
-  }
-  // You can unslick at a given breakpoint now by adding:
-  // settings: "unslick"
-  // instead of a settings object
-  ]
-  });
   // FIM Slick Slider
   $('.slider-radios').slick({
     dots: false,
@@ -184,6 +149,48 @@ $(document).ready(function(){
     $('.sidebar').css({"width": +sizeNoticias+"px"});
     });
       });
+
+  $( window ).resize(function(){
+    var sizeSlider = $("body").width();
+    if (sizeSlider < 1024) {
+      $(".slider-container").addClass("slider-noticias-container");
+      $('.slider-noticias-container').slick({
+      speed: 1800,
+      autoplay: true,
+      slidesToShow: 1,
+      autoplaySpeed: 4000,
+      arrows: false,
+      responsive: [
+      {
+      breakpoint: 1024,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+      }
+      },
+      {
+      breakpoint: 600,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false
+      }
+      },
+      {
+      breakpoint: 480,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false
+      }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+      ]
+      });
+    }
+  });
 
 // INICIO Social bar
 $(document).ready(function(){

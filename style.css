@@ -389,27 +389,6 @@ input[type="text"]{
 
 
 /* INICIO css Módulo Slider */
-.slider-noticias-container{
-  position: relative;
-  width: 100%;
-}
-
-.slider-noticias-container h2{
-  color: #fff;
-  margin: 0;
-  width: 10%;
-  padding: 0 0 20px 20px;
-  position: absolute;
-  bottom: 0;
-  font-weight: 600;
-  font-size: 1.40rem;
-  text-shadow: 0 1px 3px rgba(0,0,0,.8);
-}
-
-@media (max-width: 480px) {
-.slider-noticias-container h2{
-  font-size: 1.10rem;
-}}
 
 .slider-noticias-container > .slick-prev {
     left: 0px !important;
