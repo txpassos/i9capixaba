@@ -21,7 +21,7 @@
                 2017 © i9 Eventos e Comunicação - Todos os direitos reservados
             </div>
             <div class="col s12 m6 l6">
-              Desenvolvido por <a href="http://www.facebook.com/tntnnerd">TNTNerd</a>
+              <span class="right" style="font-size: 0.8em;">Desenvolvido por <a class="white-text" href="http://www.facebook.com/tntnnerd"><b>TNTNerd</b></a></span>
             </div>
             </div>
         </div>

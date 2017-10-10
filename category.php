@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-
-<div class="container header-post">
-</div>
 <div class="container">
 <h3><?php single_cat_title(); ?><span class="line-text green"></h3>
 <div class="row testesidebar">
@@ -10,13 +7,12 @@
     <?php
     $args = array(
         'showposts' => 5,
-        'tag__not_in'  => array(2),
     );
     query_posts($args);
 
     ?>
     <?php if (have_posts()): while (have_posts()) : the_post();?>
-    <div class="col s12 m12 l12 no-padding ultimas" style="margin-bottom: 20px;">
+    <div class="col s12 m12 l12 ultimas" style="margin-bottom: 20px;">
       <div class="col s12 m6 l6 no-padding">
         <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slider-noticias' ); ?>
         <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
