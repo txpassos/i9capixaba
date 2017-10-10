@@ -142,10 +142,10 @@ function title_excerpt($maxchars) {
 }
 
 // Registrando Menu principal e Menu topo
-//if ( function_exists('register_nav_menu')){
-//register_nav_menu('menu-noticias', 'Menu Notícias');
-//register_nav_menu('menu-trends', 'Menu trends');
-//register_nav_menu('menu-categorias', 'Menu categorias');}
+if ( function_exists('register_nav_menu')){
+register_nav_menu('menu-noticias', 'Menu Notícias');
+register_nav_menu('menu-trends', 'Menu trends');
+register_nav_menu('menu-topo', 'Menu de topo');}
 
 // Registrando Menu principal e Menu topo
 //if ( function_exists('register_nav_menu')){

@@ -76,6 +76,10 @@ Author URI: <a rel="nofollow" href="http://www.i9capixaba.com" class="vglnk"><sp
 	font-size: inherit;
 }
 
+li{
+  list-style-type: none;
+}
+
 h3{
   font-size: 1.6em !important;
   text-transform: uppercase;
@@ -276,31 +280,19 @@ input[type="text"]{
 	float: left;
 }
 
-.brand-logo {
-    font-size: 2.2rem !important;
+.logo-container img{
+    width: 160px;
 }
 
-@media (max-width: 980px){
-.brand-logo {
-  left: 26% !important;
-  margin-left: 10px;
-}
-}
-
-.brand-logo img{
-  width: 68% !important;
+.logo-container img{
+  width: 90% !important;
+  padding-top: 12px;
 }
 
 @media (max-width: 480px){
-  .brand-logo img{
+  .logo-container img{
   width: 60% !important;
-}
-}
-
-@media (min-width: 1024px){
-.brand-logo {
-    font-size: 2.8rem !important;
-    margin-top: 0;
+  padding-top: 0;
 }
 }
 

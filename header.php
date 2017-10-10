@@ -32,11 +32,13 @@
         <div class="navbar-fixed">
         <nav class="" style="" role="navigation">
             <div class="nav-wrapper container">
-                <div class="brand-logo">
-                    <a id="logo-container" href="<?php bloginfo('home')?>" title="<?php bloginfo('name');?>">
-                    <img src="<?php bloginfo('template_url');?>/assets/img/logo-i9capixabacom.png" style="padding-top: 7px;"></a>
+                <div class="logo-container left">
+                    <a href="<?php bloginfo('home')?>" title="<?php bloginfo('name');?>">
+                    <img src="<?php bloginfo('template_url');?>/assets/img/logo-i9capixabacom.png"></a>
                 </div>
-                <ul id="nav-mobile" class="left hide-on-med-and-down" style="    margin-left: 165px;">
+                <div class="menu-navbar left hide-on-med-and-down">
+                <?php wp_nav_menu( array( 'menu'=>'menu-topo', 'theme-location'=>'menu-topo', 'container'=>'div', 'container-id'=>'nav-mobile','container-class'=>'menu-topo', 'menu_class'=>'ul-menu-topo' )); ?>
+                <!--<ul id="nav-mobile" class="left hide-on-med-and-down" style="    margin-left: 165px;">
                         <li><a href="categoria/noticias">Notícias</a></li>
                         <li><a href="categoria/politica">Política</a></li>
                         <li><a href="#">Esporte</a></li>
@@ -44,9 +46,10 @@
                         <li><a href="#">Cultura</a></li>
                         <li><a href="#">Contato</a></li>
                       </ul>
-                      <ul class="right">
-                              <li><a href="#"><i class="material-icons">search</i></a></li>
-                <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only"><i class="material-icons" style="font-size:30px;">menu</i></a>
+                      <ul class="right">-->
+                    </div>
+                <li class="right"><a href="#"><i class="material-icons">search</i></a></li>
+                <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only right"><i class="material-icons" style="font-size:30px;">menu</i></a>
             </div>
         </nav>
       </div>
