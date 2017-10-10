@@ -12,7 +12,7 @@
     <p>Se estiver tudo OK, por que não tentar fazer uma pesquisa em nosso site pelo conteúdo que está procurando?</p>
     <?php get_search_form(); ?>
 
-    <p>Se desejar, poderá também saltar para a nossa <a href="http://www.i9capixaba.com">home page</a> ou <a href="http://www.agencia.ac.gov.br/arquivo/">navegar em nossos arquivos</a></p>
+    <p>Se desejar, poderá também saltar para a nossa <a href="http://www.i9capixaba.com">Página inicial</a>.</p>
     <p>Se desejar reportar esse erro, <a href="mailto:i9capixaba@gmail.com">contate-nos</a>, para que o possamos resolver. Obrigado!</p>
 </div>
     </div>

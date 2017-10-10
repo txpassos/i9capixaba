@@ -37,8 +37,8 @@
                     <img src="<?php bloginfo('template_url');?>/assets/img/logo-i9capixabacom.png" style="padding-top: 7px;"></a>
                 </div>
                 <ul id="nav-mobile" class="left hide-on-med-and-down" style="    margin-left: 165px;">
-                        <li><a href="#">Notícias</a></li>
-                        <li><a href="#">Política</a></li>
+                        <li><a href="categoria/noticias">Notícias</a></li>
+                        <li><a href="categoria/politica">Política</a></li>
                         <li><a href="#">Esporte</a></li>
                         <li><a href="#">Segurança</a></li>
                         <li><a href="#">Cultura</a></li>
