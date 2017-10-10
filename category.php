@@ -3,14 +3,6 @@
 <h3><?php single_cat_title(); ?><span class="line-text green"></h3>
 <div class="row testesidebar">
   <div class="col s12 m12 l8 no-padding">
-
-    <?php
-    $args = array(
-        'showposts' => 5,
-    );
-    query_posts($args);
-
-    ?>
     <?php if (have_posts()): while (have_posts()) : the_post();?>
     <div class="col s12 m12 l12 ultimas" style="margin-bottom: 20px;">
       <div class="col s12 m6 l6 no-padding">
